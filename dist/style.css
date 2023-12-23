@@ -1,0 +1,42 @@
+.body {
+  display: flex;
+  flex-direction: row;
+}
+.body section {
+  flex: 3;
+}
+.body section:last-child {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.counter {
+  padding: 10px;
+}
+.counter .counter-controls {
+  display: inline-block;
+  margin-left: 10px;
+}
+.counter .counter-controls button {
+  margin-right: 4px;
+}
+
+ol.instructions {
+  list-style-type: decimal;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+ol.instructions li {
+  margin-bottom: 1rem;
+}
+ol.instructions li ol {
+  margin-top: 0.5rem;
+  margin-left: 2.5rem;
+  list-style-type: decimal;
+}
